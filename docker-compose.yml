@@ -208,8 +208,16 @@ services:
       depends_on:
         - php-fpm
       networks:
-        - frontend
-        - backend
+        frontend:
+         aliases:
+          - dev.house.51.ca
+          - dev.api.51home.ca
+          - dev.data.51home.ca
+        backend:
+         aliases:
+          - dev.house.51.ca
+          - dev.api.51home.ca
+          - dev.data.51home.ca
 
 ### Blackfire ########################################
     blackfire:

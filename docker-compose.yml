@@ -213,11 +213,15 @@ services:
           - dev.house.51.ca
           - dev.api.51home.ca
           - dev.data.51home.ca
+          - dev.news-app.api.51.ca
+          - dev.m.51.ca
         backend:
          aliases:
           - dev.house.51.ca
           - dev.api.51home.ca
           - dev.data.51home.ca
+          - dev.news-app.api.51.ca
+          - dev.m.51.ca
 
 ### Blackfire ########################################
     blackfire:
